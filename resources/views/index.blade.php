@@ -20,7 +20,6 @@
     <!--  Magnific Popup css file  -->
     <link rel="stylesheet" href="{{url('vendor/Magnific-Popup/dist/magnific-popup.css')}}">
 
-
     <!--  Owl-carousel css file  -->
     <link rel="stylesheet" href="{{url('vendor/owl-carousel/css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{url('vendor/owl-carousel/css/owl.theme.default.min.css')}}">
@@ -36,7 +35,7 @@
 
 <body>
     <!--  ======================= Start Header Area ============================== -->
-
+    <section id="home">
     <header class="header_area">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container navbar-menu">
@@ -48,7 +47,7 @@
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#banner">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">about</a>
@@ -69,6 +68,7 @@
             </div>
         </nav>
     </header>
+    </section>
     <!--  ======================= End Header Area ============================== -->
 
     <!--  ======================= Start Main Area ================================ -->
@@ -518,32 +518,37 @@
                         <a href="https://instagram.com/raffidev"><span style="color: var(--primary-color);">Raffi Group ID</span></a>
                     </p>
         </div>
+        {{-- <div class="back-icon">
+            <div class="arrow-icon">
+            <a href="#home"><i class="fa-solid fa-circle-arrow-up"></i></a>
+            </div>
+        </div> --}}
         <!-- End Footer -->
-
-        {{-- <a href="#home" class="swipeup">
-        <img src=".../../img/shapes/swipe.svg" alt="Swipe-up">
-        </a> --}}
+        <a href="#home" class="swipeup"><i class="fa-solid fa-arrow-up arrayupb"></i>
+        {{-- <img src=".../../img/shapes/swipe.svg" alt="Swipe-up"> --}}
+        </a>
+        
  
         <!-- Scroll -->
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--  Jquery js file  -->
-        <script src=".../../.../../public/js/jquery.3.4.1.js"></script>
+        <script src="{{url('public/js/jquery.3.4.1.js')}}"></script>
 
         <!--  Bootstrap js file  -->
-        <script src=".../../.../../public/js/js/bootstrap.min.js"></script>
+        <script src="{{url('public/js/js/bootstrap.min.js')}}"></script>
 
         <!--  isotope js library  -->
-        <script src=".../../.../../vendor/isotope/isotope.min.js"></script>
+        <script src="{{url('vendor/isotope/isotope.min.js')}}"></script>
 
         <!--  Magnific popup script file  -->
-        <script src=".../../.../../vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+        <script src="{{url('vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js')}}"></script>
 
         <!--  Owl-carousel js file  -->
-        <script src=".../../.../../vendor/owl-carousel/js/owl.carousel.min.js"></script>
+        <script src="{{url('vendor/owl-carousel/js/owl.carousel.min.js')}}"></script>
 
         <!--  custom js file  -->
-        <script src=".../../.../../public/js/main.js"></script>
+        <script src="{{url('public/js/main.js')}}"></script>
 
         <!-- crisp chat js file -->
         <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="df4193ed-7abc-4cda-901f-5cb9872e88f7";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
