@@ -12,7 +12,7 @@ class UserController extends Controller
 {
     public function register()
     {
-        $data['title'] = 'Register';
+        $data['title'] = '';
         return view('user/register', $data);
     }
 
@@ -35,7 +35,7 @@ class UserController extends Controller
 
     public function login()
     {
-        $data['title'] = 'Login';
+        $data['title'] = '';
         return view('user/login', $data);
     }
 
@@ -54,7 +54,7 @@ class UserController extends Controller
     
     public function password()
     {
-        $data['title'] = 'Change Password';
+        $data['title'] = '';
         return view('user/password', $data);
     }
 

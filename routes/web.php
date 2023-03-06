@@ -26,9 +26,12 @@ Route::get('/profile', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
-Route::get('/blog/admin/login', function () {
-    return view('blog.admin.login');
-});
+Route::get('/login', function () {
+    return view('user.login');
+})->name('login');
+Route::get('/register', function () {
+    return view('user.register');
+})->name('register');
 
 Route::get('register',[UserController::class, 'register'])->name('register');
 Route::post('register',[UserController::class, 'register_action'])->name('register.action');
