@@ -24,7 +24,7 @@ Route::get('/profile', function () {
     return view('profile.profile');
 });
 Route::get('/blog', function () {
-    return view('blog');
+    return view('blog.index');
 });
 Route::get('/login', function () {
     return view('user.login');
