@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
- 
+require "function/koneksi.php";
 
 ?>
 
@@ -42,6 +42,11 @@ error_reporting(E_ALL);
 
 
   <div class="row d-flex justify-content-center card-section">
+
+    <?php
+    $tampil = mysqli_query($koneksi, "SELECT * FROM blog");
+    while ($data = mysqli_fetch_array($tampil)) {
+    ?>
       <div class="card" style="width: 30rem;">
         <div class="card-body">
           <h5 class="card-title"><?= $data["nama"] ?></h5>
@@ -50,7 +55,7 @@ error_reporting(E_ALL);
           <a href="view.php?id=<?= $data["id"] ?>" class="btn btn-outline-dark">View More <i class="bi bi-eye"></i></a>
         </div>
       </div>
-    <?php  ?>
+    <?php } ?>
 
   </div>
 
