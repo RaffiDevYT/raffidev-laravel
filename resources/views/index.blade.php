@@ -58,12 +58,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="blog/">blog</a>
                         </li>
-                        <!-- <div id="google_translate_element"></div> -->
                     </ul>
-                    <!-- <label class="switch">
-                        <input type="checkbox" onclick="darkMode()" />
-                        <span class="slider"></span>
-                    </label>                      -->
                 </div>
             </div>
         </nav>
@@ -88,9 +83,13 @@
                             <div class="d-flex flex-row flex-wrap">
                                 <a type="button" href="https://instagram.com/raffidev" class="btn button primary-button mr-4 text-uppercase">hire
                                     me</a>
-                            <!-- <div id="google_translate_element"></div> -->
                             </div>
-                            <div id="google_translate_element"></div>   
+                            <div class="google-translate">
+                            <select name="bahasa" id="bahasa">
+                                <option value="">Select Language</option>
+                                <option value="IDN">Indonesia</option>
+                                <option value="ENG">English</option>
+                            </select>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
@@ -134,10 +133,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
-                        <h1 class="text-uppercase title-text">Skills</h1>
-                        <p class="para white-title">
+                        <h1 class="text-uppercase title-text">My Skills</h1>
+                        <!-- <p class="para white-title">
                             Excellence is not a skill, it's an attitude. · The purpose of education is to make good human beings with skill and expertise.
-                        </p>
+                        </p> -->
                     </div>
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="first-row row">
@@ -153,6 +152,11 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
+                                    <img src="../../img/brands/js.png" alt="JS">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
                                     <img src="../../img/brands/php.png" alt="PHP">
                                 </div>
                             </div>
@@ -164,11 +168,6 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
                                     <img src="../../img/brands/mysql.png" alt="MYSQL">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="single-brand">
-                                    <img src="../../img/brands/js.png" alt="JS">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -216,7 +215,7 @@
     <!--  ======================== End Brand Area ==============================  -->
 
     <!--  ====================== Start Services Area =============================  -->
-    <section id="service">
+    <!-- <section id="service">
         <section class="services-area">
             <div class="container">
                 <div class="row">
@@ -296,7 +295,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
     <!--  ====================== End Services Area =============================  -->
 
@@ -305,8 +304,8 @@
         <section class="project-area">
             <div class="container">
                 <div class="project-title pb-5">
-                    <h1 class="text-uppercase title-h1 title-text">Recently Done Project</h1>
-                    <h1 class="text-uppercase title-h1 title-text">Quality Work</h1>
+                    <h1 class="text-uppercase title-h1 title-text text-center">Recently Done Project</h1>
+                    <h1 class="text-uppercase title-h1 title-text text-center">Quality Work</h1>
                 </div>
 
                 <div class="button-group">
@@ -425,7 +424,7 @@
                             Hacking community, then switch goals to become a cyber security and
                             web developer community and oversee crime in the internet world.
                         </p>
-                        <a href="https://isci.my.id/" type="button" class="btn button primary-button mr-4 text-uppercase button-hacking"><span">Website for ISCI
+                        <a href="https://isci.rf.gd/" type="button" class="btn button primary-button mr-4 text-uppercase button-hacking"><span">Website for ISCI
                                 Community</span></a>
                     </div>
                 </div>
@@ -456,6 +455,90 @@
             </div>
             </div>
         </footer> -->
+
+        <!-- Contact Admin -->
+        <section id="contact">
+            <div class="container">
+                <h1 class="text-uppercase title-h1 text-4xl text-teal-400 text-center">CONTACT US</h1>
+                <div class="line my-4 mx-auto"></div>
+                <div class="row">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                    <div data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000">
+                        <div class="card">
+                        <div class="card-body">
+                            <br />
+                            <h5 class="card-title">Raffi Athallah</h5>
+                            <!-- <h6 class="card-subtitle mb-2 text-center text-gray-400">ISCI Leader</h6> -->
+                            <span class="badge bg-primary">Web Developer</span>
+                            <span class="badge bg-primary">Cyber Security</span>
+                            <span class="badge bg-primary">Software Developer</span>
+                            <hr />
+                            <br />
+                            <p class="card-text" id="aboutText1">Coming from Tangerang city, and being the moderator of ISCI,
+                            under the pseudonym HC - R4ff1Dev.exe.</p>
+                            <br />
+                            <a href="https://wa.me/6282174935446/" class="button">
+                            <span>Contact</span>
+                            </a>
+                            <br />
+                            <br />
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000">
+                        <div class="card">
+                        <div class="card-body">
+                            <br />
+                            <h5 class="card-title">Raffi Athallah</h5>
+                            <!-- <h6 class="card-subtitle mb-2 text-center text-gray-400">ISCI Moderator</h6> -->
+                            <span class="badge bg-primary">Web Developer</span>
+                            <span class="badge bg-primary">Cyber Security</span>
+                            <span class="badge bg-primary">Software Developer</span>
+                            <hr />
+                            <br />
+                            <p class="card-text" id="aboutText3">Coming from Tangerang city, and being the moderator of ISCI,
+                            under the pseudonym HC - R4ff1Dev.exe.</p>
+                            <br />
+                            <a href="https://wa.me/6281212148905" class="button"><span>Contact</span></a>
+                            <br />
+                            <br />
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000">
+                        <div class="card">
+                        <div class="card-body">
+                            <br />
+                            <h5 class="card-title">Raffi Athallah</h5>
+                            <!-- <h6 class="card-subtitle mb-2 text-center text-gray-400">ISCI Moderator</h6> -->
+                            <span class="badge bg-primary">Web Developer</span>
+                            <span class="badge bg-primary">Cyber Security</span>
+                            <span class="badge bg-primary">Software Developer</span>
+                            <hr />
+                            <br />
+                            <p class="card-text" id="aboutText3">Coming from Tangerang city, and being the moderator of ISCI,
+                            under the pseudonym HC - R4ff1Dev.exe.</p>
+                            <br />
+                            <a href="https://wa.me/6281212148905" class="button"><span>Contact</span></a>
+                            <br />
+                            <br />
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+       <!-- END CONTACT -->
 
         <!-- Footer -->
         <footer class="footer">
@@ -540,13 +623,13 @@
         <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="df4193ed-7abc-4cda-901f-5cb9872e88f7";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
         <!-- Google -->
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
             function googleTranslateElementInit() {
               new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
             }
             </script>
           
-          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
 
 </body>
 
