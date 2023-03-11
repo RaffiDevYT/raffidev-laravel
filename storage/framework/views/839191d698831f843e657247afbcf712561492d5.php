@@ -134,25 +134,20 @@
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
                         <h1 class="text-uppercase title-text">My Skills</h1>
-                        <!-- <p class="para white-title">
+                        <p class="para white-title">
                             Excellence is not a skill, it's an attitude. · The purpose of education is to make good human beings with skill and expertise.
-                        </p> -->
+                        </p>
                     </div>
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="first-row row">
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="../../img/brands/html.png" alt="HTML">
+                                    <img src="../../img/brands/html.png" alt="Brand-1 ">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
                                     <img src="../../img/brands/css.png" alt="CSS">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="single-brand">
-                                    <img src="../../img/brands/js.png" alt="JS">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -168,6 +163,11 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
                                     <img src="../../img/brands/mysql.png" alt="MYSQL">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="../../img/brands/js.png" alt="JS">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
