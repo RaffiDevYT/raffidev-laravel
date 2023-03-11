@@ -96,7 +96,7 @@
                                 <option value="ENG">English</option>
                             </select>
                         </div>
-                      </div>  
+                       </div>
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
                         <img src="../../img/banner/learning.jpg" class="img-fluid">
