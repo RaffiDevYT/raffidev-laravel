@@ -58,7 +58,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="blog/">blog</a>
                         </li>
+                        <!-- <div id="google_translate_element"></div> -->
                     </ul>
+                    <!-- <label class="switch">
+                        <input type="checkbox" onclick="darkMode()" />
+                        <span class="slider"></span>
+                    </label>                      -->
                 </div>
             </div>
         </nav>
@@ -91,6 +96,7 @@
                                 <option value="ENG">English</option>
                             </select>
                         </div>
+                      </div>  
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
                         <img src="../../img/banner/learning.jpg" class="img-fluid">
@@ -134,20 +140,25 @@
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
                         <h1 class="text-uppercase title-text">My Skills</h1>
-                        <p class="para white-title">
+                        <!-- <p class="para white-title">
                             Excellence is not a skill, it's an attitude. · The purpose of education is to make good human beings with skill and expertise.
-                        </p>
+                        </p> -->
                     </div>
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="first-row row">
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="../../img/brands/html.png" alt="Brand-1 ">
+                                    <img src="../../img/brands/html.png" alt="HTML">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
                                     <img src="../../img/brands/css.png" alt="CSS">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="../../img/brands/js.png" alt="JS">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -163,11 +174,6 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
                                     <img src="../../img/brands/mysql.png" alt="MYSQL">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="single-brand">
-                                    <img src="../../img/brands/js.png" alt="JS">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -304,8 +310,8 @@
         <section class="project-area">
             <div class="container">
                 <div class="project-title pb-5">
-                    <h1 class="text-uppercase title-h1 title-text text-center">Recently Done Project</h1>
-                    <h1 class="text-uppercase title-h1 title-text text-center">Quality Work</h1>
+                    <h1 class="text-uppercase title-h1 title-text">Recently Done Project</h1>
+                    <h1 class="text-uppercase title-h1 title-text">Quality Work</h1>
                 </div>
 
                 <div class="button-group">
@@ -424,7 +430,7 @@
                             Hacking community, then switch goals to become a cyber security and
                             web developer community and oversee crime in the internet world.
                         </p>
-                        <a href="https://isci.rf.gd/" type="button" class="btn button primary-button mr-4 text-uppercase button-hacking"><span">Website for ISCI
+                        <a href="https://isci.my.id/" type="button" class="btn button primary-button mr-4 text-uppercase button-hacking"><span">Website for ISCI
                                 Community</span></a>
                     </div>
                 </div>
@@ -456,8 +462,8 @@
             </div>
         </footer> -->
 
-        <!-- Contact Admin -->
-        <section id="contact">
+                <!-- Contact Admin -->
+                <section id="contact">
             <div class="container">
                 <h1 class="text-uppercase title-h1 text-4xl text-teal-400 text-center">CONTACT US</h1>
                 <div class="line my-4 mx-auto"></div>
@@ -619,13 +625,13 @@
         <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="df4193ed-7abc-4cda-901f-5cb9872e88f7";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
         <!-- Google -->
-        <!-- <script type="text/javascript">
+        <script type="text/javascript">
             function googleTranslateElementInit() {
               new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
             }
             </script>
           
-          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 
