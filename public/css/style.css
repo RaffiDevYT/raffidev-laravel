@@ -10,7 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 /* start navigation */
-::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     width: 10px;
   }
  
@@ -36,10 +36,8 @@ body {
     width: 80%;
     height: 80px;
     margin: auto;
-    position: relative;
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+    backdrop-filter: blur(10px);
     align-items: center;
     border-radius: 3px;
     border-bottom: 2px solid var(--primary-color);
@@ -48,6 +46,7 @@ body {
 
 .header_area .navbar .navbar-brand {
     padding: 0 1rem 0 5rem;
+    margin-right: -15px;
 }
 
 .header_area .navbar-menu .navbar {
@@ -163,6 +162,10 @@ input:checked + .slider:before {
 /* End Banner Area */
 
 /* Start About Area */
+
+.about-title {
+    text-align: center;
+}
 
 .aboutme {
     padding: 4rem, 5rem;
@@ -581,7 +584,7 @@ ul {
 }
 
 /* Contact */
-#contact {
+  #contact {
     padding: 80px 0;
     background-color: #fff;
   }
@@ -619,7 +622,7 @@ ul {
     border: 1px solid #d76603;
   }
   
-  #contact .button::after {
+  /* #contact .button::after {
     content: '';
     position: absolute;
     left: 6px;
@@ -649,75 +652,4 @@ ul {
   }
   #contact .button:hover::before {
     transform: scaleY(0);
-  }
-
-/* Contact */
-#contact {
-    padding: 80px 0;
-    background-color: #fff;
-  }
-  .card {
-    transition: 0.4s;
-    margin: 20px;
-    text-align: center;
-    border: 1px solid #d76603 !important;
-  }
-  .card-body {
-    background-color: #262a35;
-    color: #d76603 !important;
-  }
-  .card-body img {
-    width: 150px;
-    margin-bottom: 20px;
-    border-radius: 50%;
-  }
-  .card:hover {
-    transform: translateY(-20px);
-    box-shadow: 0px 14px 56px -11px #d76603;
-  }
-  .card .badge {
-    background-color: #0c1220 !important;
-    color: #d76603;
-  }
-  #contact .button {
-    transition: 0.3s;
-    position: relative;
-    background-color: #0c1220;
-    padding: 15px 30px;
-    color: #d76603;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: 1px solid #d76603;
-  }
-  
-  #contact .button::after {
-    content: '';
-    position: absolute;
-    left: 6px;
-    top: -2px;
-    height: calc(100% + 4px);
-    width: calc(100% - 12px);
-    background: #262a35;
-    transition: 0.3s ease-in-out;
-    transform: scaleX(1);
-    border: 1px solid #0c1220;
-  }
-  #contact .button:hover::after {
-    transform: scaleX(0);
-  }
-  
-  #contact .button::before {
-    content: '';
-    position: absolute;
-    top: 6px;
-    left: -2px;
-    width: calc(100% + 4px);
-    height: calc(100% - 12px);
-    background: #262a35;
-    transition: 0.3s ease-in-out;
-    transform: scaleY(1);
-    border: 1px solid #0c1220;
-  }
-  #contact .button:hover::before {
-    transform: scaleY(0);
-  }
+  } */

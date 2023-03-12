@@ -1,5 +1,4 @@
-/* if the viewport is equal to 340px or less than that */
-@media only screen and (max-width: 340px) {
+@media screen and (max-width: 576px) {
   .header_area .navbar-menu .navbar,
   .header_area .navbar-menu .navbar .navbar-brand,
   .site-main .subscribe-us-area .subscribe .subscribe-title,
@@ -22,6 +21,13 @@
   .site-main > .services-area .services {
     width: 13rem;
   }
+  
+    .site-main .site-banner .site-title {
+      margin-left: 0 !important;
+    }
+    .site-main .site-banner .site-title h1 {
+      font-size: 5rem;
+    }
 }
 
 @media screen and (max-width: 1129px) {
