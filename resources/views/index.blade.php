@@ -12,23 +12,23 @@
 
 
     <!--  Bootstrap css file  -->
-    <link rel="stylesheet" href="{{url('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
     <!--  font awesome icons  -->
-    <link rel="stylesheet" href="{{url('css/all.min.css')}}">
+    <link rel="stylesheet" href="/css/all.min.css">
 
     <!--  Magnific Popup css file  -->
-    <link rel="stylesheet" href="{{url('vendor/Magnific-Popup/dist/magnific-popup.css')}}">
+    <link rel="stylesheet" href="/vendor/Magnific-Popup/dist/magnific-popup.css">
 
     <!--  Owl-carousel css file  -->
-    <link rel="stylesheet" href="{{url('vendor/owl-carousel/css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{url('vendor/owl-carousel/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="/vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/vendor/owl-carousel/css/owl.theme.default.min.css">
 	
     <!--  custom css file  -->
-    <link rel="stylesheet" href="{{url('css/style.css')}}">
+    <link rel="stylesheet" href="/css/style.css">
 
     <!--  Responsive css file  -->
-    <link rel="stylesheet" href="{{url('css/responsive.css')}}">
+    <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
 </head>
@@ -38,8 +38,8 @@
     <section id="home">
     <header class="header_area">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <div class="container navbar-menu">
-                <a class="navbar-brand" href="#"><img src="../../img/Logo Baru.png" class="banner-image" style="max-height: 80px;"></a><h4 class="home-title">Rafi Athalah</h4>
+            <div class="container-fluid navbar-menu">
+                <a class="navbar-brand" href="#"><img src="../../img/Logo Baru.png" class="banner-image" style="max-height: 75px;"></a><h4 class="home-title">Rafi Athallah</h4>
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -601,22 +601,22 @@
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--  Jquery js file  -->
-        <script src="{{url('public/js/jquery.3.4.1.js')}}"></script>
+        <script src="/js/jquery.3.4.1.js"></script>
 
         <!--  Bootstrap js file  -->
-        <script src="{{url('public/js/js/bootstrap.min.js')}}"></script>
+        <script src="/js/bootstrap.min.js"></script>
 
         <!--  isotope js library  -->
-        <script src="{{url('vendor/isotope/isotope.min.js')}}"></script>
+        <script src="/vendor/isotope/isotope.min.js"></script>
 
         <!--  Magnific popup script file  -->
-        <script src="{{url('vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js')}}"></script>
+        <script src="/vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
 
         <!--  Owl-carousel js file  -->
-        <script src="{{url('vendor/owl-carousel/js/owl.carousel.min.js')}}"></script>
+        <script src="/vendor/owl-carousel/js/owl.carousel.min.js"></script>
 
         <!--  custom js file  -->
-        <script src="{{url('public/js/main.js')}}"></script>
+        <script src="/js/main.js"></script>
 
         <!-- crisp chat js file -->
         <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="df4193ed-7abc-4cda-901f-5cb9872e88f7";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>

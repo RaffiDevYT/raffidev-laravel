@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+  body {
+    scroll-behavior: smooth !important;
+  }
   .header_area .navbar-menu .navbar,
   .header_area .navbar-menu .navbar .navbar-brand,
   .site-main .subscribe-us-area .subscribe .subscribe-title,
